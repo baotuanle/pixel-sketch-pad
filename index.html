@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pixel Sketch</title>
+  </head>
+  <body>
+    <header id="title">Pixel Sketch</header>
+    <div class="container"></div>
+    <input id="colorPicker" type="color" value="#333333" />
+    <button id="clear">Clear Grid</button>
+    <input
+      type="range"
+      min="1"
+      max="64"
+      value="16"
+      class="slider"
+      id="myRange"
+    />
+    <p id="grid-size">
+      <span id="rowValue">16</span>
+      x
+      <span id="colValue">16</span>
+    </p>
+  </body>
+  <script src="sketch.js"></script>
+</html>
